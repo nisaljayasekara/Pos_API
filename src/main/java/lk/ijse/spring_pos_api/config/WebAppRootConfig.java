@@ -33,7 +33,7 @@ public class WebAppRootConfig {
         driverManagerDataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         driverManagerDataSource.setUrl("jdbc:mysql://localhost:3306/spring_pos?createDatabaseIfNotExist=true");
         driverManagerDataSource.setUsername("root");
-        driverManagerDataSource.setPassword("1234");
+        driverManagerDataSource.setPassword("nmj2001");
         return driverManagerDataSource;
     }
 
